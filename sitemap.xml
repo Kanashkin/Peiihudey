@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://kanashkin.github.io/Peiihudey/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://kanashkin.github.io/Peiihudey/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kanashkin.github.io/Peiihudey/en/"/>
+  </url>
+  <url>
+    <loc>https://kanashkin.github.io/Peiihudey/en/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://kanashkin.github.io/Peiihudey/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kanashkin.github.io/Peiihudey/en/"/>
+  </url>
+  <url>
+    <loc>https://kanashkin.github.io/Peiihudey/privacy_policy.html</loc>
+  </url>
+  <url>
+    <loc>https://kanashkin.github.io/Peiihudey/privacy_policy_en.html</loc>
+  </url>
+</urlset>
