@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ешь и Худей — трекер калорий с ИИ</title>
+<meta name="description" content="Считай калории с ИИ-сканером еды и анализом тела по фото. Личная норма калорий, рацион на неделю, интервальное голодание. Без строгих диет.">
+<link rel="canonical" href="https://kanashkin.github.io/Peiihudey/">
+<link rel="alternate" hreflang="ru" href="https://kanashkin.github.io/Peiihudey/">
+<link rel="alternate" hreflang="en" href="https://kanashkin.github.io/Peiihudey/en/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Ешь и Худей — трекер калорий с ИИ">
+<meta property="og:description" content="Считай калории с ИИ-сканером еды и анализом тела по фото. Личная норма калорий, рацион на неделю, интервальное голодание.">
+<meta property="og:locale" content="ru_RU">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧾</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@700;800;900&family=Golos+Text:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <div class="wordmark">
+      <span class="name">Ешь<span class="fork"> и </span>Худей</span>
+      <div class="right">
+        <span class="tag">Трекер калорий · iOS</span>
+        <nav class="lang-switch" aria-label="Выбор языка">
+          <a href="/" class="active">RU</a>
+          <a href="en/">EN</a>
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap" style="display:contents">
+    <div>
+      <span class="eyebrow">Без диет и запретов</span>
+      <h1>Худей, <em>не отказываясь</em> от любимой еды</h1>
+      <p class="lede">Фотографируешь еду — ИИ сам считает калории и БЖУ. Фотографируешь себя — ИИ считает твою личную норму и собирает рацион на неделю. Дальше просто следишь за одной цифрой.</p>
+      <div class="cta-row">
+        <a class="btn-store" href="https://apps.apple.com/ru/app/ешь-и-худей/id6783601218" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.365 1.43c0 1.14-.417 2.163-1.24 3.05-.995 1.06-2.19 1.67-3.51 1.56a3.7 3.7 0 0 1-.028-.46c0-1.09.475-2.16 1.26-2.98.86-.9 2.24-1.55 3.38-1.6.024.14.038.29.038.43zM20.72 17.32c-.53 1.22-.78 1.76-1.46 2.84-.94 1.51-2.27 3.39-3.92 3.4-1.46.02-1.84-.95-3.82-.94-1.98.01-2.4.96-3.86.95-1.65-.02-2.91-1.71-3.86-3.22C1.4 17.02.6 13.14 1.83 10.5c.87-1.86 2.44-3.03 4.15-3.05 1.51-.02 2.94 1.02 3.87 1.02.92 0 2.65-1.26 4.47-1.08.76.03 2.9.31 4.27 2.32-.11.07-2.55 1.49-2.52 4.44.03 3.53 3.09 4.71 3.13 4.72-.02.08-.5 1.7-1.44 3.45z"/></svg>
+          Скачать в App Store
+        </a>
+        <span class="rating-note">iPhone · бесплатно, с Premium-функциями</span>
+      </div>
+    </div>
+
+    <div class="receipt" aria-label="Пример учёта питания за день">
+      <div class="receipt-head">
+        <div class="rname">Ешь и Худей</div>
+        <div class="rsub">Чек за сегодня</div>
+      </div>
+
+      <div class="rline"><span class="label">Куриная грудка 200г</span><span class="fill"></span><span class="receipt-figure">330 ккал</span></div>
+      <div class="rline"><span class="label">Рис отварной 150г</span><span class="fill"></span><span class="receipt-figure">195 ккал</span></div>
+      <div class="rline"><span class="label">Салат овощной 200г</span><span class="fill"></span><span class="receipt-figure">60 ккал</span></div>
+      <div class="rline"><span class="label">Банан 1 шт</span><span class="fill"></span><span class="receipt-figure">90 ккал</span></div>
+
+      <hr class="rdivider">
+
+      <div class="rline total"><span class="label">Съедено</span><span class="fill"></span><span class="receipt-figure">675 ккал</span></div>
+      <div class="rline"><span class="label">Сожжено (шаги)</span><span class="fill"></span><span class="receipt-figure">−210 ккал</span></div>
+
+      <div class="rline final"><span class="label">Осталось сегодня</span><span class="fill"></span><span class="receipt-figure">1 573 ккал</span></div>
+
+      <div class="receipt-foot">Пример · формула Миффлина-Сан Жеора</div>
+    </div>
+  </div>
+</section>
+
+<div class="torn"></div>
+
+<div class="band">
+  <div class="band-inner wrap">
+    <div class="section-eyebrow">Меню приложения</div>
+    <h2>Всё, что нужно, чтобы не считать в уме</h2>
+    <p class="section-lede">Каждая функция решает одну конкретную проблему подсчёта калорий — от лени фотографировать тарелку до незнания своей нормы.</p>
+
+    <div class="menu-list">
+      <div class="menu-item">
+        <span class="mname">ИИ-сканер еды</span>
+        <span class="mfill"></span>
+        <span class="tag premium">Premium</span>
+        <div class="mrow2 mdesc">Фото тарелки — калории и БЖУ за секунду, без ручного поиска</div>
+      </div>
+      <div class="menu-item">
+        <span class="mname">Голосовой ввод</span>
+        <span class="mfill"></span>
+        <span class="tag free">Всем</span>
+        <div class="mrow2 mdesc">Скажи, что съел — приложение само разберёт на продукты</div>
+      </div>
+      <div class="menu-item">
+        <span class="mname">Анализ тела по фото</span>
+        <span class="mfill"></span>
+        <span class="tag premium">Premium · раз в неделю</span>
+        <div class="mrow2 mdesc">Личная норма калорий и белка от ИИ вместо усреднённой формулы</div>
+      </div>
+      <div class="menu-item">
+        <span class="mname">Рацион на неделю</span>
+        <span class="mfill"></span>
+        <span class="tag premium">Premium</span>
+        <div class="mrow2 mdesc">Готовый план из настоящих продуктов под твою норму — просто отмечай съеденное</div>
+      </div>
+      <div class="menu-item">
+        <span class="mname">Интервальное голодание</span>
+        <span class="mfill"></span>
+        <span class="tag free">14:10 · 16:8 · 18:6 · 20:4</span>
+        <div class="mrow2 mdesc">Окно питания с живым таймером — без строгого подсчёта каждого приёма пищи</div>
+      </div>
+      <div class="menu-item">
+        <span class="mname">Трекер веса и достижения</span>
+        <span class="mfill"></span>
+        <span class="tag free">Всем</span>
+        <div class="mrow2 mdesc">История замеров, стрики за дни в лимите, значки за прогресс</div>
+      </div>
+      <div class="menu-item">
+        <span class="mname">Apple Health</span>
+        <span class="mfill"></span>
+        <span class="tag free">Всем</span>
+        <div class="mrow2 mdesc">Шаги и активные калории сразу учитываются в дневном балансе</div>
+      </div>
+      <div class="menu-item">
+        <span class="mname">База продуктов</span>
+        <span class="mfill"></span>
+        <span class="tag free">300+ позиций</span>
+        <div class="mrow2 mdesc">Калории и БЖУ на 100 г для самых частых продуктов и блюд</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="torn" style="transform: scaleY(-1)"></div>
+
+<section class="wrap" style="padding: 44px 0 8px;">
+  <div class="section-eyebrow">Как это работает</div>
+  <h2>Четыре шага от тарелки до цифры</h2>
+  <p class="section-lede">Никакого ручного взвешивания и таблиц — считает приложение, ты просто ешь.</p>
+
+  <div class="steps">
+    <div class="step">
+      <div class="snum num">1</div>
+      <div>
+        <h3>Сфотографируй</h3>
+        <p>Еду — для калорий, или себя — для личной нормы и рациона на неделю.</p>
+      </div>
+    </div>
+    <div class="step">
+      <div class="snum num">2</div>
+      <div>
+        <h3>ИИ считает</h3>
+        <p>Определяет продукт и вес порции, а норму калорий и белка выводит по данным профиля и формуле Миффлина-Сан Жеора.</p>
+      </div>
+    </div>
+    <div class="step">
+      <div class="snum num">3</div>
+      <div>
+        <h3>Отмечаешь съеденное</h3>
+        <p>Из рациона на неделю, голосом, из базы 300+ продуктов — или повторяешь вчерашний день одной кнопкой.</p>
+      </div>
+    </div>
+    <div class="step">
+      <div class="snum num">4</div>
+      <div>
+        <h3>Видишь прогресс</h3>
+        <p>Сколько осталось сегодня, стрик дней в лимите, вес по неделям — одним взглядом на главном экране.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="wrap" style="padding: 40px 0 8px;">
+  <div class="section-eyebrow">Откуда цифры</div>
+  <h2>Норма считается по вашим данным, а не «в среднем»</h2>
+  <p class="section-lede">В основе — формула Миффлина-Сан Жеора для базового обмена веществ, умноженная на коэффициент активности.</p>
+
+  <div class="formula">
+    <div class="fcol">
+      <div class="flabel">Мужчины</div>
+      <code>10 × вес + 6.25 × рост − 5 × возраст + 5</code>
+    </div>
+    <div class="fcol">
+      <div class="flabel">Женщины</div>
+      <code>10 × вес + 6.25 × рост − 5 × возраст − 161</code>
+    </div>
+    <div class="fnote">Результат умножается на коэффициент активности от <span class="num">×1.2</span> (сидячий образ жизни) до <span class="num">×1.9</span> (экстремальные нагрузки) — так получается дневная норма поддержания веса, из которой считается дефицит для похудения.</div>
+  </div>
+</section>
+
+<div class="torn"></div>
+
+<div class="band">
+  <div class="band-inner wrap final-cta">
+    <div class="section-eyebrow">Начать сегодня</div>
+    <h2>Первый чек за день — бесплатно, прямо сейчас</h2>
+    <div class="cta-row" style="justify-content:center; margin-top: 18px;">
+      <a class="btn-store" href="https://apps.apple.com/ru/app/ешь-и-худей/id6783601218" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16.365 1.43c0 1.14-.417 2.163-1.24 3.05-.995 1.06-2.19 1.67-3.51 1.56a3.7 3.7 0 0 1-.028-.46c0-1.09.475-2.16 1.26-2.98.86-.9 2.24-1.55 3.38-1.6.024.14.038.29.038.43zM20.72 17.32c-.53 1.22-.78 1.76-1.46 2.84-.94 1.51-2.27 3.39-3.92 3.4-1.46.02-1.84-.95-3.82-.94-1.98.01-2.4.96-3.86.95-1.65-.02-2.91-1.71-3.86-3.22C1.4 17.02.6 13.14 1.83 10.5c.87-1.86 2.44-3.03 4.15-3.05 1.51-.02 2.94 1.02 3.87 1.02.92 0 2.65-1.26 4.47-1.08.76.03 2.9.31 4.27 2.32-.11.07-2.55 1.49-2.52 4.44.03 3.53 3.09 4.71 3.13 4.72-.02.08-.5 1.7-1.44 3.45z"/></svg>
+        Скачать в App Store
+      </a>
+    </div>
+  </div>
+</div>
+
+<footer class="wrap">
+  <div class="foot-grid">
+    <p class="foot-privacy">Фото для анализа тела используются только для расчёта нормы и нигде не хранятся на сервере — они остаются в приватном дневнике на вашем устройстве.</p>
+    <p class="foot-copy"><a href="privacy_policy.html" style="color:inherit">Политика конфиденциальности</a> · © 2026 Ешь и Худей</p>
+  </div>
+</footer>
+
+</body>
+</html>
